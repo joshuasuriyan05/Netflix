@@ -22,10 +22,6 @@ const Login = () => {
         navigate("/fail");
       }
     })
-    .catch((error) => {
-      console.error("Login error:", error);
-      navigate("/fail");
-    });
   };
 
   return (
