@@ -12,8 +12,8 @@ const Login = () => {
     e.preventDefault();
 
     axios.post("http://localhost:5000/login", {
-      username: email,
-      password: password
+      "username": email,
+      "password": password
     })
     .then((res) => {
       if (res.data === true) {
