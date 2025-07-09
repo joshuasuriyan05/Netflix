@@ -11,7 +11,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post("http://localhost:5000/login", {
+    axios.post("https://netflix-er.onrender.com/login", {
       "username": email,
       "password": password
     })
